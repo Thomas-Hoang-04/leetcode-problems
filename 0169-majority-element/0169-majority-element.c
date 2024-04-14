@@ -9,5 +9,5 @@ int majorityElement(int* nums, int numsSize) {
             c = 1;
         }
     }
-    return ans;
+    return ans; 
 }
