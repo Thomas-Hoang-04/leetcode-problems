@@ -1,5 +1,12 @@
 #pragma GCC optimize (O3, "unroll-loops")
 
+auto init = []() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 'c';
+}();
+
 class Solution {
 public:
     int minDays(vector<int>& bloomDay, int m, int k) {
@@ -30,9 +37,4 @@ public:
     }
 };
 
-auto init = []() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    cout.tie(nullptr);
-    return 'c';
-}();
+
