@@ -59,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1217-relative-sort-array](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1217-relative-sort-array) |
 | [1319-unique-number-of-occurrences](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1319-unique-number-of-occurrences) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [2102-find-the-middle-index-in-array](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2102-find-the-middle-index-in-array) |
 # Sorting
 |  |
@@ -101,3 +102,4 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0633-sum-of-square-numbers](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0633-sum-of-square-numbers) |
 | [0853-most-profit-assigning-work](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0853-most-profit-assigning-work) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
