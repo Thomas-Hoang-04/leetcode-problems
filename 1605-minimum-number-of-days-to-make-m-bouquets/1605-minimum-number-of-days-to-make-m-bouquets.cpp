@@ -1,4 +1,4 @@
-
+#pragma GCC optimize (O3, "unroll-loops")
 
 class Solution {
 public:
@@ -29,3 +29,10 @@ public:
         return minDay;
     }
 };
+
+auto init = []() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 'c';
+}();
