@@ -2,7 +2,9 @@ class Solution {
     public int minDays(int[] bloomDay, int m, int k) {
         if (k * m > bloomDay.length) return -1;
         int minDay = -1;
-        int s = 0, e = Arrays.stream(bloomDay).max().getAsInt(), flo_cnt, bouq, ref;
+        int s = 0, flo_cnt, bouq, ref;
+        int e = bloomDay[0];
+        for (int d: bloomDay) e = Math.max(e, d);
         while (s <= e) {
             flo_cnt = 0;
             bouq = 0;
