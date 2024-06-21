@@ -56,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0982-minimum-increment-to-make-array-unique](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1044-find-common-characters](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1044-find-common-characters) |
 | [1137-height-checker](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1137-height-checker) |
+| [1138-grumpy-bookstore-owner](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1138-grumpy-bookstore-owner) |
 | [1217-relative-sort-array](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1217-relative-sort-array) |
 | [1319-unique-number-of-occurrences](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1319-unique-number-of-occurrences) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
@@ -106,3 +107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0853-most-profit-assigning-work](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0853-most-profit-assigning-work) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1675-magnetic-force-between-two-balls](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1675-magnetic-force-between-two-balls) |
+# Sliding Window
+|  |
+| ------- |
+| [1138-grumpy-bookstore-owner](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1138-grumpy-bookstore-owner) |
