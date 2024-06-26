@@ -27,7 +27,6 @@ class Solution {
         return new TreeNode(tree.get(mid), createAVL(st, mid - 1), createAVL(mid + 1, e));
     }
     public TreeNode balanceBST(TreeNode root) {
-        if (root == null) return root;
         flatten(root);
         return createAVL(0, tree.size() - 1);
     }
