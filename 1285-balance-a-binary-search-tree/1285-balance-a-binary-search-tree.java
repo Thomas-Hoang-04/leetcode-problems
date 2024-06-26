@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    private List<Integer> tree;
+    private List<Integer> tree = new ArrayList<>();
     private void flatten(TreeNode root) {
         if (root == null) return;
         flatten(root.left);
@@ -24,12 +24,7 @@ class Solution {
     private TreeNode createAVL(int st, int e) {
         if (st > e) return null;
         int mid = st + (e - st) / 2;
-        TreeNode left = createAVL(st, mid - 1);
-        TreeNode right = createAVL(mid + 1, e);
-        return new TreeNode(tree.get(mid), left, right);
-    }
-    public Solution() {
-        this.tree = new ArrayList<>();
+        return new TreeNode(tree.get(mid), createAVL(st, mid - 1), createAVL(mid + 1, e));
     }
     public TreeNode balanceBST(TreeNode root) {
         if (root == null) return root;
