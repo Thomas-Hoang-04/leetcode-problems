@@ -1,3 +1,5 @@
+#pragma GCC optimize (O3, "unroll-loops")
+
 typedef pair<int, int> p2;
 
 class Solution {
@@ -19,3 +21,10 @@ public:
         return sumIpt;
     }
 };
+
+auto init = []() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 'c';
+}();
