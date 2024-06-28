@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0982-minimum-increment-to-make-array-unique](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1285-balance-a-binary-search-tree](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1285-balance-a-binary-search-tree) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
+| [2379-maximum-total-importance-of-roads](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2379-maximum-total-importance-of-roads) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Hash Table
 |  |
@@ -79,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1217-relative-sort-array](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1217-relative-sort-array) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1675-magnetic-force-between-two-balls](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1675-magnetic-force-between-two-balls) |
+| [2379-maximum-total-importance-of-roads](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2379-maximum-total-importance-of-roads) |
 # Trie
 |  |
 | ------- |
@@ -106,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0502-ipo](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0502-ipo) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [2379-maximum-total-importance-of-roads](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2379-maximum-total-importance-of-roads) |
 # Binary Search
 |  |
 | ------- |
@@ -155,3 +158,4 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1916-find-center-of-star-graph](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1916-find-center-of-star-graph) |
+| [2379-maximum-total-importance-of-roads](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2379-maximum-total-importance-of-roads) |
