@@ -1,3 +1,5 @@
+#pragma GCC optimize(O3, "unroll-loops");
+
 class Solution {
 private:
     vector<vector<int>> p;
@@ -19,3 +21,10 @@ public:
         return p;
     }
 };
+
+auto init = []() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 'c';
+}();
