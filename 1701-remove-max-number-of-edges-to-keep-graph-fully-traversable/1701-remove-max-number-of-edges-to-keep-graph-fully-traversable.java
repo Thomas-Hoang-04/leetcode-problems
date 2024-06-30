@@ -37,12 +37,12 @@ class Solution {
         
         int minEdges = 0;
 
-        for (int i = 0; i < edges.length; i++) 
-            if (edges[i][0] == 3) minEdges += Alice.union(edges[i][1], edges[i][2]) | Bob.union(edges[i][1], edges[i][2]);
+        for (int[] e: edges) 
+            if (e[0] == 3) minEdges += Alice.union(e[1], e[2]) | Bob.union(e[1], e[2]);
         
-        for (int i = 0; i < edges.length; i++) 
-            if (edges[i][0] == 1) minEdges += Alice.union(edges[i][1], edges[i][2]);
-            else if (edges[i][0] == 2) minEdges += Bob.union(edges[i][1], edges[i][2]);
+        for (int[] e: edges)
+            if (e[0] == 1) minEdges += Alice.union(e[1], e[2]);
+            else if (e[0] == 2) minEdges += Bob.union(e[1], e[2]);
 
         if (Alice.isConnected() && Bob.isConnected()) return edges.length - minEdges;
         return -1;
