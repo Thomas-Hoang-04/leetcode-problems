@@ -186,4 +186,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1293-three-consecutive-odds](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1293-three-consecutive-odds) |
+| [2785-semi-ordered-permutation](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2785-semi-ordered-permutation) |
+## Simulation
+|  |
+| ------- |
+| [2785-semi-ordered-permutation](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2785-semi-ordered-permutation) |
 <!---LeetCode Topics End-->
