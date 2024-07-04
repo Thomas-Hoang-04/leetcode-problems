@@ -18,10 +18,8 @@ struct ListNode* mergeNodes(struct ListNode* head) {
         }
         t = t->next;
         head->val = sum;
-        if (!t)
-            head->next = t;
-        else
-            head = head->next;
+        if (!t) head->next = t;
+        else head = head->next;
     }
     return ans;
 }
