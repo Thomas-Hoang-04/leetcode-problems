@@ -1,0 +1,28 @@
+class MyHashSet {
+private:
+    array<bool, 1000001> set;
+public:
+    MyHashSet() {
+        set.fill(false);
+    }
+    
+    void add(int key) {
+        set[key] = true;
+    }
+    
+    void remove(int key) {
+        set[key] = false;
+    }
+    
+    bool contains(int key) {
+        return set[key];
+    }
+};
+
+/**
+ * Your MyHashSet object will be instantiated and called as such:
+ * MyHashSet* obj = new MyHashSet();
+ * obj->add(key);
+ * obj->remove(key);
+ * bool param_3 = obj->contains(key);
+ */
