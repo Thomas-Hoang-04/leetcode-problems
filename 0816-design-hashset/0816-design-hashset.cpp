@@ -2,12 +2,8 @@
 
 class MyHashSet {
 private:
-    array<bool, 1000001> set;
-public:
-    MyHashSet() {
-        set.fill(false);
-    }
-    
+    bool set[1000001] = {0};
+public:    
     void add(int key) {
         set[key] = true;
     }
