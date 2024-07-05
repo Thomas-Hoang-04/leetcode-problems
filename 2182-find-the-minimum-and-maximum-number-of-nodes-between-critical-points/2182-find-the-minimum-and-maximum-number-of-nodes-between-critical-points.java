@@ -10,22 +10,20 @@
  */
 class Solution {
     public int[] nodesBetweenCriticalPoints(ListNode head) {
-        int[] ans = { Integer.MAX_VALUE, -1 };
-        int minPos = 0, lastCrit = minPos, currPos = 2;
+        int minDis = Integer.MAX_VALUE, minPos = 0, lastCrit = minPos, currPos = 2;
         ListNode prev = head;
         head = head.next;
         while (head.next != null) {
             if ((head.val > prev.val && head.val > head.next.val) || (head.val < prev.val && head.val < head.next.val)) {
                 if (minPos == 0) minPos = currPos;
-                else ans[0] = Math.min(ans[0], currPos - lastCrit);
+                else minDis = Math.min(minDis, currPos - lastCrit);
                 lastCrit = currPos;
             }
             currPos++;
             prev = head;
             head = head.next;
         } 
-        if (ans[0] == Integer.MAX_VALUE) return new int[] { -1, -1 };
-        ans[1] = lastCrit - minPos;
-        return ans;       
+        if (minDis == Integer.MAX_VALUE) return new int[] { -1, -1 };
+        return new int[] { minDis, lastCrit - minPos };
     }
 }
