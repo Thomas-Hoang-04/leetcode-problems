@@ -187,6 +187,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0816-design-hashset](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0816-design-hashset) |
 | [1293-three-consecutive-odds](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1293-three-consecutive-odds) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2785-semi-ordered-permutation](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2785-semi-ordered-permutation) |
@@ -200,6 +201,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0816-design-hashset](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0816-design-hashset) |
 ## Two Pointers
 |  |
 | ------- |
@@ -223,6 +225,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 |  |
 | ------- |
+| [0816-design-hashset](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0816-design-hashset) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2299-merge-nodes-in-between-zeros) |
+## Design
+|  |
+| ------- |
+| [0816-design-hashset](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0816-design-hashset) |
+## Hash Function
+|  |
+| ------- |
+| [0816-design-hashset](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0816-design-hashset) |
 <!---LeetCode Topics End-->
