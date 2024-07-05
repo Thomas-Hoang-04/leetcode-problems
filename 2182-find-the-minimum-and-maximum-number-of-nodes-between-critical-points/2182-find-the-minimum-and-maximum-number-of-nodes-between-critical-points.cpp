@@ -8,13 +8,6 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-auto init = []() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    cout.tie(nullptr);
-    return 'c';
-}();
-
 class Solution {
 public:
     vector<int> nodesBetweenCriticalPoints(ListNode* head) {
@@ -35,3 +28,10 @@ public:
         return { minDis, lastCrit - minPos };
     }
 };
+
+auto init = []() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 'c';
+}();
