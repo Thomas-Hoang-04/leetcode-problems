@@ -19,6 +19,13 @@ public:
     }
 };
 
+auto init = []() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 'c';
+}();
+
 /**
  * Your MyHashSet object will be instantiated and called as such:
  * MyHashSet* obj = new MyHashSet();
