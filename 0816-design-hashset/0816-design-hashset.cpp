@@ -1,3 +1,5 @@
+#pragma GCC optimize(O3, "unroll-loops");
+
 class MyHashSet {
 private:
     array<bool, 1000001> set;
