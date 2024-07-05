@@ -5,11 +5,11 @@ private:
     bool set[1000001] = {0};
 public:    
     void add(int key) {
-        set[key] = true;
+        set[key] = 1;
     }
     
     void remove(int key) {
-        set[key] = false;
+        set[key] = 0;
     }
     
     bool contains(int key) {
