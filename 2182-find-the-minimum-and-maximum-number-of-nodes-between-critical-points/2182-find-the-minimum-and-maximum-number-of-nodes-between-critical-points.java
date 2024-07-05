@@ -24,10 +24,7 @@ class Solution {
             prev = head;
             head = head.next;
         } 
-        if (ans[0] == Integer.MAX_VALUE) {
-            ans[0] = -1;
-            return ans;
-        }
+        if (ans[0] == Integer.MAX_VALUE) return new int[] { -1, -1 };
         ans[1] = lastCrit - minPos;
         return ans;       
     }
