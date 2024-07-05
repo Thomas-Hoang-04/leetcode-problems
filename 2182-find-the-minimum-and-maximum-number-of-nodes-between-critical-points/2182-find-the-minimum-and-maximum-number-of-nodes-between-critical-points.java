@@ -10,9 +10,7 @@
  */
 class Solution {
     public int[] nodesBetweenCriticalPoints(ListNode head) {
-        int[] ans = new int[2];
-        ans[0] = Integer.MAX_VALUE;
-        ans[1] = -1;
+        int[] ans = { Integer.MAX_VALUE, -1 };
         int minPos = 0, lastCrit = minPos, currPos = 2;
         ListNode prev = head;
         head = head.next;
