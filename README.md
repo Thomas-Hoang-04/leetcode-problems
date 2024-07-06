@@ -195,6 +195,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2645-pass-the-pillow](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2645-pass-the-pillow) |
 | [2785-semi-ordered-permutation](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2785-semi-ordered-permutation) |
 ## Hash Table
 |  |
@@ -236,4 +237,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0816-design-hashset](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0816-design-hashset) |
+## Math
+|  |
+| ------- |
+| [2645-pass-the-pillow](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2645-pass-the-pillow) |
 <!---LeetCode Topics End-->
