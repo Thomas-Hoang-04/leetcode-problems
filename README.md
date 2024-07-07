@@ -198,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2299-merge-nodes-in-between-zeros](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2645-pass-the-pillow) |
 | [2785-semi-ordered-permutation](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2785-semi-ordered-permutation) |
+| [3336-water-bottles-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/3336-water-bottles-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -243,4 +244,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1642-water-bottles](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1642-water-bottles) |
 | [2645-pass-the-pillow](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2645-pass-the-pillow) |
+| [3336-water-bottles-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/3336-water-bottles-ii) |
 <!---LeetCode Topics End-->
