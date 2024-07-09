@@ -11,7 +11,6 @@ class Solution {
                 curr_time += time[1];
                 wait_time += curr_time - time[0];
             }
-            System.out.println(wait_time);
         }   
         return wait_time / customers.length;
     }
