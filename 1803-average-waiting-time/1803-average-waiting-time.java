@@ -1,6 +1,6 @@
 class Solution {
     public double averageWaitingTime(int[][] customers) {
-        int curr_time = customers[0][0];
+        int curr_time = -1;
         double wait_time = 0;
         for (int[] time: customers) {
             if (curr_time < time[0]) {
