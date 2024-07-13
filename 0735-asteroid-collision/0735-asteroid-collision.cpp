@@ -11,7 +11,7 @@ public:
                 while (!pow.empty() && pow.back() > 0) {
                     if (!track) break;
                     if (ast[i] + pow.back() <= 0) {
-                        if (ast[i] == -pow.back()) track = false;
+                        track = !(ast[i] == -pow.back());
                         pow.pop_back();
                     } else track = false;
                 }
