@@ -187,6 +187,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0735-asteroid-collision](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0735-asteroid-collision) |
 | [0816-design-hashset](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0816-design-hashset) |
 | [1293-three-consecutive-odds](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1293-three-consecutive-odds) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -197,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0735-asteroid-collision) |
 | [1642-water-bottles](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1642-water-bottles) |
 | [1803-average-waiting-time](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -269,6 +271,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0735-asteroid-collision) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1818-maximum-score-from-removing-substrings) |
