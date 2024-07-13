@@ -26,10 +26,9 @@ public:
             }
         }
         
-        res.clear();
-        for (int i = 0; i < healths.size(); i++) if (healths[i] > 0) res.push_back(healths[i]);
+        healths.erase(remove_if(healths.begin(), healths.end(), [](int x){ return x == 0; }), healths.end());
 
-        return res;
+        return healths;
     }
 };
 
