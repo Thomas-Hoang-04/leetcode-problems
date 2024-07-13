@@ -2,20 +2,19 @@ class Solution {
 public:
     vector<int> asteroidCollision(vector<int>& ast) {
         vector<int> pow;
-        pow.push_back(ast[0]);
         bool track;
-        for (int i = 1; i < ast.size(); i++) {
-            if (ast[i] > 0 || (!pow.empty() && pow.back() < 0)) pow.push_back(ast[i]);
+        for (int s: ast) {
+            if (s > 0 || (!pow.empty() && pow.back() < 0)) pow.push_back(s);
             else {
                 track = true;
                 while (!pow.empty() && pow.back() > 0) {
                     if (!track) break;
-                    if (ast[i] + pow.back() <= 0) {
-                        track = !(ast[i] == -pow.back());
+                    if (s + pow.back() <= 0) {
+                        track = !(s == -pow.back());
                         pow.pop_back();
                     } else track = false;
                 }
-                if (track) pow.push_back(ast[i]);
+                if (track) pow.push_back(s);
             }
         }
         return pow;
