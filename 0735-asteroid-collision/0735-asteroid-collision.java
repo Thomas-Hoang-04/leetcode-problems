@@ -1,8 +1,8 @@
 class Solution {
+    private static boolean track;
     public int[] asteroidCollision(int[] ast) {
         int[] pow = new int[ast.length];
         int curr_pow = 0;
-        boolean track;
         for (int s: ast) {
             if (s > 0 || (curr_pow > 0 && pow[curr_pow - 1] < 0)) pow[curr_pow++] = s;
             else {
