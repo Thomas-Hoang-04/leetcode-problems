@@ -33,32 +33,32 @@ public:
         }
 
         unordered_map<string, int> finMap;
-        string currAtom, currCnt;
+        string currAtom;
         idx = 0;
         while (idx < formula.size()) {
             if (!isupper(formula[idx++])) continue; 
             
             currAtom = "";
             currAtom += formula[idx - 1];
-            currCnt = "";
+            currNo = "";
             while (idx < formula.size() && islower(formula[idx])) currAtom += formula[idx++];
 
-            while (idx < formula.size() && isdigit(formula[idx])) currCnt += formula[idx++];
+            while (idx < formula.size() && isdigit(formula[idx])) currNo += formula[idx++];
 
-            runMul = currCnt.empty() ? 1 : stoi(currCnt);
+            runMul = currNo.empty() ? 1 : stoi(currNo);
 
             finMap[currAtom] += runMul * muls[idx - 1];
         }
 
         map<string, int> sortedFin(finMap.begin(), finMap.end());
 
-        string ans = "";
+        currAtom = "";
         for (auto &[atom, cnt]: sortedFin) {
-            ans += atom;
-            if (cnt > 1) ans += to_string(cnt);
+            currAtom += atom;
+            if (cnt > 1) currAtom += to_string(cnt);
         }
 
-        return ans;
+        return currAtom;
     }
 };
 
