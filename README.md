@@ -164,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 ## Breadth-First Search
 |  |
@@ -288,9 +289,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Binary Tree
 |  |
 | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2306-create-binary-tree-from-descriptions) |
 <!---LeetCode Topics End-->
