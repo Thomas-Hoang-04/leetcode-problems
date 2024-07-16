@@ -9,7 +9,6 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-#pragma GCC optimize (O3, "unroll-loops")
 #pragma GCC target ("avx")
 #pragma GCC target ("-fsplit-loops")
 
