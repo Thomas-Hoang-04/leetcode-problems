@@ -13,15 +13,18 @@
 
 class Solution {
 public:
-    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if (!root || root->val == p->val || root->val == q->val) return root;
+    TreeNode* helper(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if (!root || root == p || root == q) return root;
 
-        TreeNode* leftLCA = lowestCommonAncestor(root->left, p, q);
-        TreeNode* rightLCA = lowestCommonAncestor(root->right, p, q);
+        TreeNode* leftLCA = helper(root->left, p, q);
+        TreeNode* rightLCA = helper(root->right, p, q);
 
         if (!leftLCA) return rightLCA;
         if (!rightLCA) return leftLCA;
         return root;
+    }
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        return helper(root, p, q);
     }
 };
 
