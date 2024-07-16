@@ -9,6 +9,10 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+#pragma GCC optimize (Ofast)
+#pragma GCC target ("avx")
+#pragma GCC target ("-fsplit-loops")
+
 class Solution {
 private:
     bool dfs(TreeNode* root, int tar, string& path) {
