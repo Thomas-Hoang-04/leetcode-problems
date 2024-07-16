@@ -23,13 +23,13 @@ class Solution {
         if (root.left == null && root.right == null) {
             path.append(root.val);
             ans.add(path.toString());
+        } else {
+            path.append(root.val);
+            path.append("->");
+
+            dfs(root.left, path);
+            dfs(root.right, path);
         }
-
-        path.append(root.val);
-        path.append("->");
-
-        dfs(root.left, path);
-        dfs(root.right, path);
 
         path.setLength(tmp);
     }
