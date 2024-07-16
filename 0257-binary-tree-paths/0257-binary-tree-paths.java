@@ -19,14 +19,12 @@ class Solution {
         if (root == null) return;
 
         final int tmp = path.length();
+        path.append(root.val);
 
         if (root.left == null && root.right == null) {
-            path.append(root.val);
             ans.add(path.toString());
         } else {
-            path.append(root.val);
             path.append("->");
-
             dfs(root.left, path);
             dfs(root.right, path);
         }
