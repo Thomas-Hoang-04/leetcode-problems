@@ -9,17 +9,15 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-
-
 class Solution {
 private:
     vector<TreeNode*> ans;
     bool del[1001] = { 0 };
-    TreeNode* dfs(TreeNode* root, TreeNode* prev) {
+    TreeNode* dfs(TreeNode* root) {
         if (!root) return nullptr;
 
-        root->left = dfs(root->left, root);
-        root->right = dfs(root->right, root);
+        root->left = dfs(root->left);
+        root->right = dfs(root->right);
 
         if (del[root->val]) {
             if (root->left && !del[root->left->val]) ans.push_back(root->left);
@@ -34,7 +32,7 @@ public:
         if (!root) return {};
         for (int d: to_delete) del[d] = true;
         if (!del[root->val]) ans.push_back(root);
-        dfs(root, nullptr);
+        dfs(root);
         return ans;
     }
 };
