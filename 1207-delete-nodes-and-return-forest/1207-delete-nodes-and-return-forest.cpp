@@ -13,27 +13,26 @@ class Solution {
 private:
     vector<TreeNode*> ans;
     bool del[1001] = { 0 };
-    void dfs(TreeNode* root, TreeNode* prev, bool stat) {
-        if (!root) return;
+    TreeNode* dfs(TreeNode* root, TreeNode* prev) {
+        if (!root) return nullptr;
+
+        root->left = dfs(root->left, root);
+        root->right = dfs(root->right, root);
 
         if (del[root->val]) {
             if (root->left && !del[root->left->val]) ans.push_back(root->left);
             if (root->right && !del[root->right->val]) ans.push_back(root->right);
-            if (prev) {
-                if (stat) prev->left = nullptr;
-                else prev->right = nullptr;
-            }
+            return nullptr;
         }
 
-        dfs(root->left, root, true);
-        dfs(root->right, root, false);
+        return root;
     }
 public:
     vector<TreeNode*> delNodes(TreeNode* root, vector<int>& to_delete) {
         if (!root) return {};
         for (int d: to_delete) del[d] = true;
         if (!del[root->val]) ans.push_back(root);
-        dfs(root, nullptr, false);
+        dfs(root, nullptr);
         return ans;
     }
 };
