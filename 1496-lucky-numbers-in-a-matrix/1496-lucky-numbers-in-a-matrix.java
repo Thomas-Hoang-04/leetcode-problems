@@ -3,11 +3,9 @@ class Solution {
         List<Integer> ans = new ArrayList<>();
         int[] rows = new int[matrix.length];
         int[] cols = new int[matrix[0].length];
-        Arrays.fill(rows, Integer.MAX_VALUE);
-        Arrays.fill(cols, Integer.MIN_VALUE);
         for (int r = 0; r < matrix.length; r++) 
             for (int c = 0; c < matrix[0].length; c++) {
-                rows[r] = Math.min(rows[r], matrix[r][c]);
+                rows[r] = rows[r] == 0 ? matrix[r][c] : Math.min(rows[r], matrix[r][c]);
                 cols[c] = Math.max(cols[c], matrix[r][c]);
             }
         for (int r = 0; r < matrix.length; r++) 
