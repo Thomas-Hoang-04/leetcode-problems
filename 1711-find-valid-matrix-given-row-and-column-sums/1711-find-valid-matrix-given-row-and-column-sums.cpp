@@ -1,5 +1,3 @@
-#pragma GCC optimize(O3, "unroll-loops")
-
 class Solution {
 public:
     vector<vector<int>> restoreMatrix(vector<int>& rowSum, vector<int>& colSum) {
