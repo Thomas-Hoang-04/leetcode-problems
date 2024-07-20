@@ -5,16 +5,18 @@ public:
     vector<vector<int>> restoreMatrix(vector<int>& rowSum, vector<int>& colSum) {
         const int row = rowSum.size();
         const int col = colSum.size();
-        vector<vector<int>> ans(row);
+        vector<vector<int>> ans(row, vector<int>(col));
 
-        for (int r = 0; r < row; r++) {
-            ans[r].resize(col);
-            for (int c = 0; c < col; c++) {
-                ans[r][c] = min(rowSum[r], colSum[c]);
+        int r = 0, c = 0;
 
-                rowSum[r] -= ans[r][c];
-                colSum[c] -= ans[r][c];
-            }
+        while (r < row && c < col) {
+            ans[r][c] = min(rowSum[r], colSum[c]);
+        
+            rowSum[r] -= ans[r][c];
+            colSum[c] -= ans[r][c];
+
+            if (rowSum[r] == 0) r++;
+            else c++;
         }
         return ans;
     }
