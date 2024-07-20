@@ -5,13 +5,17 @@ class Solution {
 
         int[][] ans = new int[row][col];
 
-        for (int r = 0; r < row; r++) 
-            for (int c = 0; c < col; c++) {
-                ans[r][c] = Math.min(rowSum[r], colSum[c]);
+        int r = 0, c = 0;
 
-                rowSum[r] -= ans[r][c];
-                colSum[c] -= ans[r][c];
-            }
+        while (r < row && c < col) {
+            ans[r][c] = Math.min(rowSum[r], colSum[c]);
+
+            rowSum[r] -= ans[r][c];
+            colSum[c] -= ans[r][c];
+
+            if (rowSum[r] == 0) r++;
+            else c++;
+        }
 
         return ans;
     }
