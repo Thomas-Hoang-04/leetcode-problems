@@ -1,7 +1,3 @@
-#pragma GCC optimize(O3, "unroll-loops")
-#pragma GCC target ("avx")
-#pragma GCC target ("-fsplit-loops")
-
 class Solution {
 public:
     vector<vector<int>> restoreMatrix(vector<int>& rowSum, vector<int>& colSum) {
@@ -22,9 +18,3 @@ public:
     }
 };
 
-auto init = []() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    cout.tie(nullptr);
-    return 'c';
-}();
