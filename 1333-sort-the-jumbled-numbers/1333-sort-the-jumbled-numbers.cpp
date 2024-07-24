@@ -2,12 +2,13 @@ class Solution {
 private:
     int create_map(int org, vector<int>& mp) {
         if (org == 0) return mp[0];
-        string ans = "";
+        int pl = 1, ans = 0;
         while (org) {
-            ans = to_string(mp[org % 10]) + ans;
+            ans = pl * mp[org % 10] + ans;
+            pl *= 10;
             org /= 10;
         }
-        return stoi(ans);
+        return ans;
     }
 public:
     vector<int> sortJumbled(vector<int>& mapping, vector<int>& nums) {
