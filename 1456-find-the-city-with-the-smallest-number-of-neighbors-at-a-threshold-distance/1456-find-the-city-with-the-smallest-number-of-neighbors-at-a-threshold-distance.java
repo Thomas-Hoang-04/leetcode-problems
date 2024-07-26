@@ -2,9 +2,11 @@ class Solution {
     private int[][] dist;
     private void floydWarshall(int n) {
         for (int v = 0; v < n; v++) 
-            for (int i = 0; i < n; i++) 
+            for (int i = 0; i < n; i++) {
+                if (dist[i][v] == (int)1e5) continue;
                 for (int j = 0; j < n; j++) 
                     dist[i][j] = Math.min(dist[i][j], dist[i][v] + dist[v][j]);
+            }
     } 
     private int findCityMinNeighbor(int n, int thres) {
         int ans = -1, ref = n;
