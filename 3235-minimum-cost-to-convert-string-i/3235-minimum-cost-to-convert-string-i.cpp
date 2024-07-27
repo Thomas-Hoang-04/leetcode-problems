@@ -7,8 +7,6 @@ public:
     long long minimumCost(string source, string target, vector<char>& original, vector<char>& changed, vector<int>& cost) {
         vector<vector<int>> minDist(26, vector<int>(26, 1e7));
 
-        for (int i = 0; i < 26; i++) minDist[i][i] = 0;
-
         for (int i = 0; i < original.size(); i++) 
             minDist[original[i] - 'a'][changed[i] - 'a'] = min(cost[i], minDist[original[i] - 'a'][changed[i] - 'a']);
 
