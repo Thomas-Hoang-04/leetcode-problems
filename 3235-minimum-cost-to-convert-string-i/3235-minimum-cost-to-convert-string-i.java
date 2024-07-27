@@ -15,12 +15,15 @@ class Solution {
                 }
 
         long minCost = 0;
+        char t1, t2;
         for (int i = 0; i < source.length(); i++) {
-            if (source.charAt(i) == target.charAt(i)) continue;
+            t1 = source.charAt(i);
+            t2 = target.charAt(i);
+            if (t1 == t2) continue;
 
-            if (minDist[source.charAt(i) - 'a'][target.charAt(i) - 'a'] >= (int)1e7) return -1;
+            if (minDist[t1 - 'a'][t2 - 'a'] >= (int)1e7) return -1;
 
-            minCost += minDist[source.charAt(i) - 'a'][target.charAt(i) - 'a'];
+            minCost += minDist[t1 - 'a'][t2 - 'a'];
         }
         return minCost;
     }
