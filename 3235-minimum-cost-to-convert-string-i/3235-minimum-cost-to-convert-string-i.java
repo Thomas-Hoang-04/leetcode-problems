@@ -2,7 +2,10 @@ class Solution {
     public long minimumCost(String source, String target, char[] original, char[] changed, int[] cost) {
         int[][] minDist = new int[26][26];
 
-        for (int i = 0; i < 26; i++) Arrays.fill(minDist[i], (int)1e7);
+        for (int i = 0; i < 26; i++) {
+            Arrays.fill(minDist[i], (int)1e7);
+            minDist[i][i] = 0;
+        }
 
         for (int i = 0; i < original.length; i++) 
             minDist[original[i] - 'a'][changed[i] - 'a'] = Math.min(cost[i], minDist[original[i] - 'a'][changed[i] - 'a']);        
