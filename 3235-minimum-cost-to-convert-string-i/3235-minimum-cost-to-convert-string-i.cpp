@@ -5,12 +5,12 @@
 class Solution {
 public:
     long long minimumCost(string source, string target, vector<char>& original, vector<char>& changed, vector<int>& cost) {
-        vector<vector<long long>> minDist(26, vector<long long>(26, INT_MAX));
+        vector<vector<int>> minDist(26, vector<int>(26, 1e7));
 
         for (int i = 0; i < 26; i++) minDist[i][i] = 0;
 
         for (int i = 0; i < original.size(); i++) 
-            minDist[original[i] - 'a'][changed[i] - 'a'] = min((long long)cost[i], minDist[original[i] - 'a'][changed[i] - 'a']);
+            minDist[original[i] - 'a'][changed[i] - 'a'] = min(cost[i], minDist[original[i] - 'a'][changed[i] - 'a']);
 
         for (int c = 0; c < 26; c++) 
             for (int st = 0; st < 26; st++)
@@ -23,7 +23,7 @@ public:
         for (int i = 0; i < source.size(); i++) {
             if (source[i] == target[i]) continue;
 
-            if (minDist[source[i] - 'a'][target[i] - 'a'] >= INT_MAX) return -1;
+            if (minDist[source[i] - 'a'][target[i] - 'a'] >= 1e7) return -1;
 
             minCost += minDist[source[i] - 'a'][target[i] - 'a'];
         }
