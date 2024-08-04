@@ -1,3 +1,7 @@
+#pragma GCC optimize(O3, "unroll-loops")
+#pragma GCC target ("avx")
+#pragma GCC target ("-fsplit-loops")
+
 class Solution {
 public:
     int rangeSum(vector<int>& nums, int n, int left, int right) {
@@ -18,3 +22,10 @@ public:
         return sum;
     }
 };
+
+auto init = []() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 'c';
+}();
