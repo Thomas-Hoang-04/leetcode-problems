@@ -5,7 +5,7 @@ class Solution {
         val resMp = mp.filter { (k, v) -> v == 1 };
 
         var i = 1;
-        for (key in resMp.keys) if (i++ == k) return key;
+        for ((key, _) in resMp) if (i++ == k) return key;
         return "";
     }
 }
