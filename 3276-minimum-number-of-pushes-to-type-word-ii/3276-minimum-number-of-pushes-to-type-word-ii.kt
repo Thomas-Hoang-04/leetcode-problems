@@ -1,6 +1,6 @@
 class Solution {
     fun minimumPushes(word: String): Int {
-        val letterCnt = Array<Int>(26) { 0 };
+        val letterCnt = IntArray(26);
         var maxKey : Int = 8;
         var push : Int = 1;
         var ans = 0;
