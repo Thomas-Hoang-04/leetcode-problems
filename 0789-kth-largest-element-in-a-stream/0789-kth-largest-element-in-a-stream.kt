@@ -3,12 +3,12 @@ class KthLargest(k: Int, nums: IntArray) {
     private var k : Int;
     init {
         this.k = k; 
-        for (n in nums) add(n);
+        nums.forEach { add(it) };
     }
 
     fun add(n: Int): Int {
         if (heap.size < k || heap.peek() < n) {
-            heap.add(n);
+            heap.offer(n);
             if (heap.size > k) heap.poll();
         }
         return heap.peek();
