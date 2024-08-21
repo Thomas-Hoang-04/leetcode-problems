@@ -1,36 +1,25 @@
 class Solution {
-    private fun clearDup(org: String) : String {
-        var proc : String = "";
-        var curr : Char = 'A';
-        for (i in 0..org.length - 1) {
-            if (org[i] == curr) continue;
-            curr = org[i];
-            proc += curr;
-        }
-        return proc;
-    }
     fun strangePrinter(s: String): Int {
-        val nw_s : String = clearDup(s);
-        val dp : Array<IntArray> = Array(nw_s.length) { IntArray(nw_s.length) {0} };
+        if (s.isEmpty()) return 0;
+        val n = s.length;
+        val dp : Array<IntArray> = Array(n) { IntArray(n) };
 
-        for (i in 0..nw_s.length - 1) dp[i][i] = 1;
+        var e : Int;
+        for (i in 0 until n) dp[i][i] = 1;
 
-        var e : Int; var tol : Int;
-        for (len in 2..nw_s.length) {
-            for (st in 0..nw_s.length - len) {
+        for (len in 2..n) {
+            for (st in 0..n - len) {
                 e = st + len - 1;
 
-                dp[st][e] = len;
+                dp[st][e] = dp[st][e - 1] + if (s[st] == s[e]) 0 else 1;
 
-                for (spl in 0..len - 2) {
-                    tol = dp[st][st + spl] + dp[st + spl + 1][e];
-
-                    if (nw_s[st + spl] == nw_s[e]) tol--;
-
-                    dp[st][e] = min(dp[st][e], tol);
+                for (spl in st + 1 until e) {
+                    if (s[spl] == s[e]) {
+                        dp[st][e] = min(dp[st][e], dp[st][spl - 1] + dp[spl][e - 1]);
+                    }
                 }            
             }
         }
-        return dp[0][nw_s.length - 1];
+        return dp[0][n - 1];
     }
 }
