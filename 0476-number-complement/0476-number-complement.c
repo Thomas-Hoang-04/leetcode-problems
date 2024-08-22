@@ -1,9 +1,5 @@
 int findComplement(int num) {
-    int ans = num;
-    long k = 1;
-    while (k <= num) {
-        ans ^= k;
-        k <<= 1;
-    }
-    return ans;
+    uint32_t k = 1;
+    while (k <= num) k <<= 1;
+    return ~num & (k - 1);
 }
