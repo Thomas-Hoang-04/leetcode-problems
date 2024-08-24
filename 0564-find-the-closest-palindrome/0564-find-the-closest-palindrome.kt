@@ -11,8 +11,7 @@ class Solution {
     fun nearestPalindromic(n: String): String {
         if (n.length == 1) return (n.toInt() - 1).toString();
         val sz: Int = n.length;
-        val mid: Int = if (sz % 2 == 0) sz / 2 - 1 else sz / 2;
-        val spl: Long = n.substring(0, mid + 1).toLong();
+        val spl: Long = n.substring(0, (sz / 2) + if (sz % 2 == 0) 0 else 1).toLong();
 
         val cands: LongArray = longArrayOf(
             convPalin(spl, sz % 2 == 0),
