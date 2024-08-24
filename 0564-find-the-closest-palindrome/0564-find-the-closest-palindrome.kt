@@ -21,8 +21,8 @@ class Solution {
             (10.0).pow(sz.toDouble()).toLong() + 1,
         )
 
-        var res: Long = 0; var diff: Long = Long.MAX_VALUE; val nl: Long = n.toLong();
-        for (cand in cands) {
+        /*var res: Long = 0; var diff: Long = Long.MAX_VALUE;*/ val nl: Long = n.toLong();
+        /*for (cand in cands) {
             if (cand == nl) continue;
             if (abs(cand - nl) < diff) {
                 diff = abs(cand - nl);
@@ -30,6 +30,7 @@ class Solution {
             } else if (abs(cand - nl) == diff) res = min(cand, res);
         }
 
-        return res.toString();
+        return res.toString() */;
+        return cands.filter { it != nl }.minWith(compareBy<Long> { abs(it - nl) }.thenBy { it }).toString();
     }
 }
