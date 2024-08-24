@@ -14,13 +14,13 @@ class Solution {
         val mid: Int = if (sz % 2 == 0) sz / 2 - 1 else sz / 2;
         val spl: Long = n.substring(0, mid + 1).toLong();
 
-        val cands: LongArray = LongArray(5);
-        var idx: Int = 0;
-        cands[idx++] = convPalin(spl, sz % 2 == 0);
-        cands[idx++] = convPalin(spl + 1, sz % 2 == 0);
-        cands[idx++] = convPalin(spl - 1, sz % 2 == 0);
-        cands[idx++] = (10.0).pow((sz - 1).toDouble()).toLong() - 1;
-        cands[idx++] = (10.0).pow(sz.toDouble()).toLong() + 1;
+        val cands: LongArray = longArrayOf(
+            convPalin(spl, sz % 2 == 0),
+            convPalin(spl + 1, sz % 2 == 0),
+            convPalin(spl - 1, sz % 2 == 0),
+            (10.0).pow((sz - 1).toDouble()).toLong() - 1,
+            (10.0).pow(sz.toDouble()).toLong() + 1,
+        )
 
         var res: Long = 0; var diff: Long = Long.MAX_VALUE; val nl: Long = n.toLong();
         for (cand in cands) {
