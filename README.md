@@ -164,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0145-binary-tree-postorder-traversal](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0145-binary-tree-postorder-traversal) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0257-binary-tree-paths) |
 | [0999-regions-cut-by-slashes](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0999-regions-cut-by-slashes) |
@@ -375,6 +376,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0145-binary-tree-postorder-traversal](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0145-binary-tree-postorder-traversal) |
 | [0726-number-of-atoms](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0726-number-of-atoms) |
 | [0735-asteroid-collision](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0735-asteroid-collision) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -385,6 +387,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0145-binary-tree-postorder-traversal](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0145-binary-tree-postorder-traversal) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0257-binary-tree-paths) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -395,6 +398,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Tree
 |  |
 | ------- |
+| [0145-binary-tree-postorder-traversal](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0145-binary-tree-postorder-traversal) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0257-binary-tree-paths) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0789-kth-largest-element-in-a-stream) |
