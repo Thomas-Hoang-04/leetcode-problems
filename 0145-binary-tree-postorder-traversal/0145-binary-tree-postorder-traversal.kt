@@ -18,6 +18,7 @@ class Solution {
         ans.add(root.`val`);
     }
     fun postorderTraversal(root: TreeNode?): List<Int> {
+        if (root == null) return emptyList();
         postOrd(root);
         return ans;
     }
