@@ -10,13 +10,12 @@ class Solution {
     private fun postOrder(root: Node?): Unit {
         if (root == null) return;
 
-        for (c in root.children) postOrder(c);
-
         ans.add(root.`val`);
+
+        for (c in root.children.lastIndex downTo 0) postOrder(root.children[c]);
     }
     fun postorder(root: Node?): List<Int> {
-        if (root == null) return emptyList();
         postOrder(root);
-        return ans;
+        return ans.reversed();
     }
 }
