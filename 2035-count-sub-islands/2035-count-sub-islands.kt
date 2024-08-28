@@ -1,6 +1,6 @@
 class Solution {
     data class Coor(val r: Int, val c: Int);
-    private val dirs : Array<IntArray> = arrayOf(intArrayOf(0, 1), intArrayOf(1, 0), intArrayOf(0, -1), intArrayOf(-1, 0));
+    private val dirs : Array<Coor> = arrayOf(Coor(0, 1), Coor(1, 0), Coor(0, -1), Coor(-1, 0));
     private lateinit var visited : Array<BooleanArray>;
     private fun isLand(r: Int, c: Int, grid: Array<IntArray>) : Boolean {
         return r >= 0 && c >= 0 && r < grid.size && c < grid[0].size && grid[r][c] == 1;
@@ -20,8 +20,8 @@ class Solution {
             if (!isLand(t.r, t.c, grid1)) isSub = false;
 
             for (dir in dirs) {
-                rt = t.r + dir[0];
-                ct = t.c + dir[1];
+                rt = t.r + dir.r;
+                ct = t.c + dir.c;
 
                 if (isLand(rt, ct, grid2) && !visited[rt][ct]) {
                     pend.offer(Coor(rt, ct));
