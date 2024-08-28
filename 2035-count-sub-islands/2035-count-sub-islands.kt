@@ -5,8 +5,8 @@ class Solution {
     private fun isLand(r: Int, c: Int, grid: Array<IntArray>) : Boolean {
         return r >= 0 && c >= 0 && r < grid.size && c < grid[0].size && grid[r][c] == 1;
     }
-    private fun isSubIsland(r: Int, c: Int, grid1: Array<IntArray>, grid2: Array<IntArray>) : Boolean {
-        var isSub : Boolean = true;
+    private fun isSubIsland(r: Int, c: Int, grid1: Array<IntArray>, grid2: Array<IntArray>) : Int {
+        var isSub : Int = 1;
 
         val pend : Queue<Coor> = LinkedList();
         pend.offer(Coor(r, c));
@@ -17,7 +17,7 @@ class Solution {
         while (!pend.isEmpty()) {
             t = pend.poll();
 
-            if (!isLand(t.r, t.c, grid1)) isSub = false;
+            if (!isLand(t.r, t.c, grid1)) isSub = 0;
 
             for (dir in dirs) {
                 rt = t.r + dir.r;
@@ -39,7 +39,7 @@ class Solution {
 
         for (r in 0 until grid2.size) 
             for (c in 0 until grid2[0].size) 
-                if (!visited[r][c] && isLand(r, c, grid2)) if (isSubIsland(r, c, grid1, grid2)) subCnt++;
+                if (!visited[r][c] && isLand(r, c, grid2)) subCnt += isSubIsland(r, c, grid1, grid2);
 
         return subCnt;
     }
