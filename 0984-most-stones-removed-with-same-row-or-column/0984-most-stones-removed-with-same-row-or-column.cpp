@@ -4,35 +4,54 @@
 
 class Solution {
 private: 
-    vector<bool> visited;
-    vector<vector<int>> graph;
-    void dfs(int root) {
-        visited[root] = true;
+    class UnionFind {
+    private: 
+        vector<int> par;
+        vector<bool> visited;
+        int cnt;
+        int find(int node) {
+            if (!visited[node]) {
+                cnt++;
+                visited[node] = true;
+            }
+            if (par[node] == -1) return node;
 
-        for (int adj: graph[root]) 
-            if (!visited[adj]) dfs(adj);
-    }
+            return par[node] = find(par[node]);
+        }
+    public:
+        UnionFind(int size) {
+            par = vector<int>(size, -1);
+            visited = vector<bool>(size, false);
+            cnt = 0;
+        }
+
+        int retCnt() { return cnt; }
+
+        void unionNode(int n1, int n2) {
+            n1 = find(n1);
+            n2 = find(n2);
+
+            if (n1 == n2) return;
+
+            par[n1] = n2;
+            cnt--;
+        }
+    };
 public:
     int removeStones(vector<vector<int>>& stones) {
         if (stones.size() == 1) return 0;
-        visited = vector<bool>(stones.size(), false);
-        graph = vector<vector<int>>(stones.size());
+    
+        int rowMax = INT_MIN, colMax = INT_MIN;
+        for (vector<int>& stone: stones) {
+            rowMax = max(rowMax, stone[0]);
+            colMax = max(colMax, stone[1]);
+        }
 
-        for (int i = 0; i < stones.size(); i++) 
-            for (int j = i + 1; j < stones.size(); j++) 
-                if (stones[i][0] == stones[j][0] || stones[i][1] == stones[j][1]) {
-                    graph[i].push_back(j);
-                    graph[j].push_back(i);
-                }
+        UnionFind uf(rowMax + colMax + 2);
 
-        int cnt = 0;
-        for (int i = 0; i < stones.size(); i++) 
-            if (!visited[i]) {
-                cnt++;
-                dfs(i);
-            }
+        for (vector<int>& stone: stones) uf.unionNode(stone[0], stone[1] + rowMax + 1);
         
-        return stones.size() - cnt;            
+        return stones.size() - uf.retCnt();            
     }
 };
 
