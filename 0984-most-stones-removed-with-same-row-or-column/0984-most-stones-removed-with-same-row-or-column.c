@@ -9,7 +9,7 @@ int removeStones(int** stones, int stonesSize, int* stonesColSize) {
     if (stonesSize == 1) return 0;
     bool* visited = (bool*)calloc(stonesSize, sizeof(bool));
     int** graph = (int**)malloc(stonesSize * sizeof(int*));
-    for (int i = 0; i < stonesSize; i++) graph[i] = (int*)malloc(1000 * sizeof(int));
+    for (int i = 0; i < stonesSize; i++) graph[i] = (int*)malloc((stonesSize - 1) * sizeof(int));
 
     int* adjSize = (int*)calloc(stonesSize, sizeof(int));
 
