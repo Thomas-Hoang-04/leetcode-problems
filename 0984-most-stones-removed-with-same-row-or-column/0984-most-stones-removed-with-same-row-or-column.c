@@ -6,6 +6,7 @@ void dfs(int root, bool* visited, int** graph, int* adjSize) {
 }
 
 int removeStones(int** stones, int stonesSize, int* stonesColSize) {
+    if (stonesSize == 1) return 0;
     bool* visited = (bool*)calloc(stonesSize, sizeof(bool));
     int** graph = (int**)malloc(stonesSize * sizeof(int*));
     for (int i = 0; i < stonesSize; i++) graph[i] = (int*)malloc(1000 * sizeof(int));
