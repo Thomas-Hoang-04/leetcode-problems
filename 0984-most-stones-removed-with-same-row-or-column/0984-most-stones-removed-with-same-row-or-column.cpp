@@ -14,6 +14,7 @@ private:
     }
 public:
     int removeStones(vector<vector<int>>& stones) {
+        if (stones.size() == 1) return 0;
         visited = vector<bool>(stones.size(), false);
         graph = vector<vector<int>>(stones.size());
 
