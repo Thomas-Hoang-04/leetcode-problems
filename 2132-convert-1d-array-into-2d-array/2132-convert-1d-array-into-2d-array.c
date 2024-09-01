@@ -6,7 +6,6 @@
 int** construct2DArray(int* original, int originalSize, int m, int n, int* returnSize, int** returnColumnSizes) {
     if (m * n != originalSize) {
         *returnSize = 0;
-        *returnColumnSizes = NULL;
         return NULL;
     }
     
