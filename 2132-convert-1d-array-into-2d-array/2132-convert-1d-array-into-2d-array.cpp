@@ -1,3 +1,7 @@
+#pragma GCC optimize(O3, "unroll-loops")
+#pragma GCC target ("avx")
+#pragma GCC target ("-fsplit-loops")
+
 class Solution {
 public:
     vector<vector<int>> construct2DArray(vector<int>& original, int m, int n) {
