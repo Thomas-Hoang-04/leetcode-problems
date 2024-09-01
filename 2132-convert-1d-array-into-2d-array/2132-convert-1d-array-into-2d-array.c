@@ -16,10 +16,7 @@ int** construct2DArray(int* original, int originalSize, int m, int n, int* retur
     *returnColumnSizes = (int*)malloc(m * sizeof(int));
 
     for (int r = 0; r < m; r++) {
-        for (int c = 0; c < n; c++) {
-            ans[r][c] = original[r * n + c];
-        }
-
+        for (int c = 0; c < n; c++) ans[r][c] = original[r * n + c];
         (*returnColumnSizes)[r] = n;
     }
 
