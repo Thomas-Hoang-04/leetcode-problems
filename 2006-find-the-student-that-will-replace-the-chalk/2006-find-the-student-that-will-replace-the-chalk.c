@@ -8,5 +8,5 @@ int chalkReplacer(int* chalk, int chalkSize, int k) {
     if (k == 0) return 0;
     chalkSize = 0;
     while (k > 0) k -= chalk[chalkSize++];
-    return k == 0 ? chalkSize : chalkSize - 1;
+    return chalkSize - (k != 0);
 }
