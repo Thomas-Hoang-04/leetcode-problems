@@ -356,6 +356,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0650-2-keys-keyboard](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0650-2-keys-keyboard) |
 | [0870-magic-squares-in-grid](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0870-magic-squares-in-grid) |
 | [1240-stone-game-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1240-stone-game-ii) |
+| [1610-xor-operation-in-an-array](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1610-xor-operation-in-an-array) |
 | [1642-water-bottles](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2645-pass-the-pillow) |
@@ -526,4 +527,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0476-number-complement](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0476-number-complement) |
+| [1610-xor-operation-in-an-array](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1610-xor-operation-in-an-array) |
 <!---LeetCode Topics End-->
