@@ -257,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0258-add-digits) |
 | [0592-fraction-addition-and-subtraction](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0592-fraction-addition-and-subtraction) |
 | [0735-asteroid-collision](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0735-asteroid-collision) |
 | [0921-spiral-matrix-iii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0921-spiral-matrix-iii) |
@@ -352,6 +353,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0202-happy-number) |
+| [0258-add-digits](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0258-add-digits) |
 | [0263-ugly-number](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0273-integer-to-english-words) |
@@ -533,4 +535,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0476-number-complement](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0476-number-complement) |
 | [1610-xor-operation-in-an-array](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1610-xor-operation-in-an-array) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
