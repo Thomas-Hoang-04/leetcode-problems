@@ -276,6 +276,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0202-happy-number](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0202-happy-number) |
 | [0264-ugly-number-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0264-ugly-number-ii) |
 | [0349-intersection-of-two-arrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -294,6 +295,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0202-happy-number](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0202-happy-number) |
 | [0349-intersection-of-two-arrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0719-find-k-th-smallest-pair-distance) |
@@ -349,6 +351,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0202-happy-number](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0202-happy-number) |
 | [0263-ugly-number](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0273-integer-to-english-words) |
