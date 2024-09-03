@@ -6,7 +6,6 @@ int convertLetter(char c) {
 int getLucky(char* s, int k) {
     int sum = 0;
     while (*s != '\0') sum += convertLetter(*s++);
-    printf("%d", sum);
     if (--k == 0) return sum;
     int t;
     while (k-- > 0) {
