@@ -44,8 +44,8 @@ class Solution {
             }
 
             for (st in 1..cmd) {
-                var nextX = currPos.x + currDir.crd.x;
-                var nextY = currPos.y + currDir.crd.y;
+                nextX = currPos.x + currDir.crd.x;
+                nextY = currPos.y + currDir.crd.y;
                 if (obst.filter { it == Coor(nextX, nextY) }.size > 0) break;
                 currPos = Coor(nextX, nextY);
             }
