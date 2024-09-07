@@ -23,7 +23,6 @@
 
 class Solution {
 private:
-    vector<int> pattern, prefixTab = { 0 };
     bool searchTree(TreeNode* root, ListNode* head) {
         if (!head) return true;
         if (!root || (root->val != head->val)) return false;
@@ -32,11 +31,8 @@ private:
 public:
     bool isSubPath(ListNode* head, TreeNode* root) {
         if (!root) return false;
-        bool res = searchTree(root, head);
 
-        res |= (isSubPath(head, root->left) || isSubPath(head, root->right));
-
-        return res;
+        return searchTree(root, head) || isSubPath(head, root->left) || isSubPath(head, root->right);
     }
 };
 
