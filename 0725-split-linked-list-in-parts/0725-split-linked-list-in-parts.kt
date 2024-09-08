@@ -21,11 +21,8 @@ class Solution {
         curr = head;
         for (i in 0 until k) {
             ans[i] = dh;
-            cnt = step;
-            if (rem > 0) {
-                rem--;
-                cnt++;
-            }
+            cnt = step + if (rem > 0) 1 else 0;
+            rem--;
             while (cnt > 0) {
                 curr = dh;
                 if (dh != null)
