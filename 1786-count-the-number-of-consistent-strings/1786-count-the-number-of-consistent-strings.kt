@@ -6,11 +6,10 @@ class Solution {
         var ans: Int = 0; var stat: Boolean;
         for (str in words) {
             stat = true;
-            for (c in str) 
-                if (!mp[c - 'a']) {
-                    stat = false;
-                    break;
-                }
+            for (c in str) {
+                stat = mp[c - 'a'];
+                if (!stat) break;
+            }
 
                 if (stat) ans++;
         }
