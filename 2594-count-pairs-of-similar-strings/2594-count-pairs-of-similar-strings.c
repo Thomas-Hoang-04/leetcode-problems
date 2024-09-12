@@ -1,14 +1,13 @@
 int similarPairs(char** words, int wordsSize) {
-    int cnt[1000003] = {0};
-    uint32_t hash;
-    while (wordsSize--) {
-        hash = 0;
-        while (**words != '\0') hash |= (1 << (*(*words)++ - 'a'));
-        cnt[hash % 1000003]++;
+    int cnt[10000] = {0};
+    int i = 0;
+    while (i < wordsSize) {
+        while (**words != '\0') cnt[i] |= (1 << (*(*words)++ - 'a'));
+        i++;
         words++;
     }
     int ans = 0;
-    for (int i = 0; i < 1000003; i++) 
-        if (cnt[i] > 1) ans += cnt[i] * (cnt[i] - 1) / 2;
+    for (i = 0; i < wordsSize; i++) 
+        for (int j = i + 1; j < wordsSize; j++) if (cnt[i] == cnt[j]) ans++;
     return ans;
 }
