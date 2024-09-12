@@ -256,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2411-spiral-matrix-iv](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2411-spiral-matrix-iv) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2502-sort-the-people) |
+| [2594-count-pairs-of-similar-strings](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2594-count-pairs-of-similar-strings) |
 | [2727-number-of-senior-citizens](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2727-number-of-senior-citizens) |
 | [2785-semi-ordered-permutation](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2785-semi-ordered-permutation) |
 | [2846-robot-collisions](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2846-robot-collisions) |
@@ -304,6 +305,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2163-kth-distinct-string-in-an-array](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2502-sort-the-people) |
+| [2594-count-pairs-of-similar-strings](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2594-count-pairs-of-similar-strings) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Two Pointers
@@ -416,6 +418,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2243-check-if-all-as-appears-before-all-bs](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2243-check-if-all-as-appears-before-all-bs) |
 | [2502-sort-the-people](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2502-sort-the-people) |
+| [2594-count-pairs-of-similar-strings](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2594-count-pairs-of-similar-strings) |
 | [2727-number-of-senior-citizens](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2727-number-of-senior-citizens) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -504,6 +507,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0948-sort-an-array](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0948-sort-an-array) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2594-count-pairs-of-similar-strings](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2594-count-pairs-of-similar-strings) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Dynamic Programming
 |  |
@@ -563,6 +567,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1610-xor-operation-in-an-array](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1610-xor-operation-in-an-array) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2323-minimum-bit-flips-to-convert-number) |
+| [2594-count-pairs-of-similar-strings](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2594-count-pairs-of-similar-strings) |
 ## Number Theory
 |  |
 | ------- |
