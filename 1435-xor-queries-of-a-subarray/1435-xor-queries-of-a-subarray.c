@@ -4,7 +4,7 @@
 int* xorQueries(int* arr, int arrSize, int** queries, int queriesSize, int* queriesColSize, int* returnSize) {
     *returnSize = queriesSize;
     int* ans = (int*)malloc(queriesSize * sizeof(int));
-    int* pref = (int*)malloc(arrSize * sizeof(int));
+    int pref[arrSize];
     pref[0] = arr[0];
     for (int i = 1; i < arrSize; i++) pref[i] = pref[i - 1] ^ arr[i];
     for (int i = 0; i < queriesSize; i++) {
