@@ -1,3 +1,5 @@
+#pragma GCC optimize(O3, "unroll-loops")
+
 class Solution {
 public:
     int longestSubarray(vector<int>& nums) {
@@ -15,3 +17,10 @@ public:
         return ans;
     }
 };
+
+auto init = []() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 'c';
+}();
