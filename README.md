@@ -257,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2411-spiral-matrix-iv](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2411-spiral-matrix-iv) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2502-sort-the-people) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2594-count-pairs-of-similar-strings) |
 | [2727-number-of-senior-citizens](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2727-number-of-senior-citizens) |
 | [2785-semi-ordered-permutation](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2785-semi-ordered-permutation) |
@@ -570,10 +571,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1610-xor-operation-in-an-array](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1610-xor-operation-in-an-array) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2323-minimum-bit-flips-to-convert-number) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2594-count-pairs-of-similar-strings) |
 ## Number Theory
 |  |
 | ------- |
 | [0258-add-digits](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0258-add-digits) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+## Brainteaser
+|  |
+| ------- |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 <!---LeetCode Topics End-->
