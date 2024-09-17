@@ -4,9 +4,9 @@ class Solution {
         val mp: HashMap<String, Int> = hashMapOf();
         val ans: MutableList<String> = mutableListOf();
         for (wrd in s_merge) 
-            mp[wrd] = mp[wrd]?.plus(1) ?: 1;
-        for ((wrd, cnt) in mp) 
-            if (cnt == 1) ans.add(wrd);
+            mp[wrd] = mp.getOrDefault(wrd, 0) + 1;
+        for (wrd in mp.keys) 
+            if (mp[wrd] == 1) ans.add(wrd);
         return ans.toTypedArray();
     }
 }
