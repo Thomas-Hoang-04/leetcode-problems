@@ -215,6 +215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0001-two-sum) |
 | [0040-combination-sum-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0040-combination-sum-ii) |
+| [0179-largest-number](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0179-largest-number) |
 | [0349-intersection-of-two-arrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0539-minimum-time-difference](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0539-minimum-time-difference) |
@@ -332,6 +333,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0179-largest-number) |
 | [0349-intersection-of-two-arrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0539-minimum-time-difference](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0539-minimum-time-difference) |
@@ -349,6 +351,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0179-largest-number) |
 | [0624-maximum-distance-in-arrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0890-lemonade-change) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -409,6 +412,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0179-largest-number](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0179-largest-number) |
 | [0257-binary-tree-paths](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0257-binary-tree-paths) |
 | [0273-integer-to-english-words](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0273-integer-to-english-words) |
 | [0539-minimum-time-difference](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0539-minimum-time-difference) |
