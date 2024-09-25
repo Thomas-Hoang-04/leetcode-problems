@@ -4,10 +4,7 @@ class Solution {
         var t: Int;
         for (v in arr1) {
             t = v;
-            while (!pref.contains(t) && t > 0) {
-                pref.add(t);
-                t /= 10;
-            }
+            while (pref.add(t) && t > 0) t /= 10;
         }
 
         var maxPref: Int = 0;
