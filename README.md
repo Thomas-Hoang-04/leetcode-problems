@@ -222,6 +222,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0539-minimum-time-difference](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0539-minimum-time-difference) |
 | [0624-maximum-distance-in-arrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0729-my-calendar-i](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0729-my-calendar-i) |
 | [0735-asteroid-collision](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0735-asteroid-collision) |
 | [0816-design-hashset](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0816-design-hashset) |
 | [0870-magic-squares-in-grid](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0870-magic-squares-in-grid) |
@@ -334,6 +335,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0349-intersection-of-two-arrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0729-my-calendar-i](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0729-my-calendar-i) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Sorting
@@ -378,6 +380,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0729-my-calendar-i](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0729-my-calendar-i) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0816-design-hashset](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0816-design-hashset) |
 ## Hash Function
@@ -634,4 +637,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+## Segment Tree
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0729-my-calendar-i) |
+## Ordered Set
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0729-my-calendar-i) |
 <!---LeetCode Topics End-->
