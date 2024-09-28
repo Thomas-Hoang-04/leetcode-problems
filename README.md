@@ -226,6 +226,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0731-my-calendar-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0731-my-calendar-ii) |
 | [0735-asteroid-collision](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0735-asteroid-collision) |
 | [0816-design-hashset](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0816-design-hashset) |
+| [0859-design-circular-deque](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0859-design-circular-deque) |
 | [0870-magic-squares-in-grid](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0870-magic-squares-in-grid) |
 | [0890-lemonade-change](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0890-lemonade-change) |
 | [0906-walking-robot-simulation](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0906-walking-robot-simulation) |
@@ -373,6 +374,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0725-split-linked-list-in-parts](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0725-split-linked-list-in-parts) |
 | [0816-design-hashset](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0816-design-hashset) |
+| [0859-design-circular-deque](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0859-design-circular-deque) |
 | [1484-linked-list-in-binary-tree](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1484-linked-list-in-binary-tree) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2299-merge-nodes-in-between-zeros) |
@@ -386,6 +388,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0731-my-calendar-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0816-design-hashset](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0816-design-hashset) |
+| [0859-design-circular-deque](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0859-design-circular-deque) |
 ## Hash Function
 |  |
 | ------- |
@@ -422,6 +425,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Queue
 |  |
 | ------- |
+| [0859-design-circular-deque](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0859-design-circular-deque) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## String
 |  |
