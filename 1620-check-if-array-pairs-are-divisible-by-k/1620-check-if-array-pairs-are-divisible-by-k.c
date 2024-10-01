@@ -4,7 +4,7 @@ bool canArrange(int* arr, int arrSize, int k) {
     for (int i = 0; i < arrSize; i++) rem_cnt[(arr[i] % k + k) % k]++;
     int rem;
     for (int i = 0; i < arrSize; i++) {
-        rem = (i % k + k) % k;
+        rem = (arr[i] % k + k) % k;
 
         if (!rem) {
             if (rem_cnt[rem] & 1) return false; 
