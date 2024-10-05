@@ -309,6 +309,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0349-intersection-of-two-arrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0432-all-oone-data-structure](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0432-all-oone-data-structure) |
+| [0567-permutation-in-string](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0567-permutation-in-string) |
 | [0726-number-of-atoms](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0726-number-of-atoms) |
 | [0816-design-hashset](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0816-design-hashset) |
 | [0870-magic-squares-in-grid](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0870-magic-squares-in-grid) |
@@ -339,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0202-happy-number](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0202-happy-number) |
 | [0349-intersection-of-two-arrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0567-permutation-in-string](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0567-permutation-in-string) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -454,6 +456,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0273-integer-to-english-words](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0273-integer-to-english-words) |
 | [0539-minimum-time-difference](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0564-find-the-closest-palindrome) |
+| [0567-permutation-in-string](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0567-permutation-in-string) |
 | [0592-fraction-addition-and-subtraction](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0592-fraction-addition-and-subtraction) |
 | [0664-strange-printer](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0664-strange-printer) |
 | [0726-number-of-atoms](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0726-number-of-atoms) |
@@ -593,6 +596,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0567-permutation-in-string](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0567-permutation-in-string) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 ## Binary Indexed Tree
 |  |
