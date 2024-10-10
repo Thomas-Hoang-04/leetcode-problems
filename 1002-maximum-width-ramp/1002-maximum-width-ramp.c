@@ -3,7 +3,7 @@ int max(int a, int b) {
 }
 
 int maxWidthRamp(int* nums, int numsSize) {
-    int* st = (int*)malloc(numsSize * sizeof(int));
+    int st[numsSize];
     int st_size = 0;
     for (int i = 0; i < numsSize; i++) 
         if (!st_size || nums[st[st_size - 1]] > nums[i]) st[st_size++] = i;
