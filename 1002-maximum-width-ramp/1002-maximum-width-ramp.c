@@ -10,6 +10,7 @@ int maxWidthRamp(int* nums, int numsSize) {
 
     int maxRamp = 0;
     for (;numsSize;numsSize--) {
+        if (st_size == 0) break;
         while (st_size && nums[st[st_size - 1]] <= nums[numsSize - 1]) 
             maxRamp = max(maxRamp, numsSize - 1 - st[--st_size]);
     }
