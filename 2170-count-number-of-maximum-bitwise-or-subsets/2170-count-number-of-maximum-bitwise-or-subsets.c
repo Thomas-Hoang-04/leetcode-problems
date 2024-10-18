@@ -1,6 +1,6 @@
 int countMaxOrSubsets(int* nums, int numsSize) {
-    int maxOr = 0;
-    for (int i = 0; i < numsSize; i++) maxOr |= nums[i];
+    int maxOr = *nums;
+    for (int i = 1; i < numsSize; i++) maxOr |= nums[i];
 
     int totalSub = 1 << numsSize;
     int cnt = 0, curr;
