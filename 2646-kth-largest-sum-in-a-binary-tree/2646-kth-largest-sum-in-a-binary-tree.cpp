@@ -22,7 +22,7 @@ public:
         while (!bfs.empty()) {
             size = bfs.size();
             sum = 0;
-            for (int i = 0; i < size; i++) {
+            for (;size;size--) {
                 curr = bfs.front();
                 bfs.pop();
                 sum += curr->val;
