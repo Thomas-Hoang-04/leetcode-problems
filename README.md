@@ -742,6 +742,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2594-count-pairs-of-similar-strings) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/3291-find-if-array-can-be-sorted) |
+| [3394-minimum-array-end](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/3394-minimum-array-end) |
 ## Number Theory
 |  |
 | ------- |
