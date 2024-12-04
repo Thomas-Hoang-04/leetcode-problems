@@ -1,6 +1,4 @@
 bool canMakeSubsequence(char* str1, char* str2) {
-    int strIdx = 0;
-
     while (*str1) {
         if (!(*str2)) return true;
 
