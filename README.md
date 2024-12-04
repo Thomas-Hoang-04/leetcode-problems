@@ -391,6 +391,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0202-happy-number](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0202-happy-number) |
 | [0349-intersection-of-two-arrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0392-is-subsequence](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0567-permutation-in-string) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -544,6 +545,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0241-different-ways-to-add-parentheses](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0241-different-ways-to-add-parentheses) |
 | [0257-binary-tree-paths](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0257-binary-tree-paths) |
 | [0273-integer-to-english-words](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0273-integer-to-english-words) |
+| [0392-is-subsequence](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0392-is-subsequence) |
 | [0539-minimum-time-difference](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0564-find-the-closest-palindrome) |
 | [0567-permutation-in-string](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0567-permutation-in-string) |
@@ -710,6 +712,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0264-ugly-number-ii) |
+| [0392-is-subsequence](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0392-is-subsequence) |
 | [0650-2-keys-keyboard](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0664-strange-printer) |
 | [1196-filling-bookcase-shelves](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1196-filling-bookcase-shelves) |
