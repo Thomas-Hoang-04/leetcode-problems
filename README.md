@@ -319,6 +319,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2785-semi-ordered-permutation](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2785-semi-ordered-permutation) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2846-robot-collisions](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2846-robot-collisions) |
+| [2868-continuous-subarrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/3291-find-if-array-can-be-sorted) |
@@ -560,6 +561,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0859-design-circular-deque](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0859-design-circular-deque) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2868-continuous-subarrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2868-continuous-subarrays) |
 ## String
 |  |
 | ------- |
@@ -712,6 +714,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2803-modify-graph-edge-weights](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2803-modify-graph-edge-weights) |
+| [2868-continuous-subarrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2868-continuous-subarrays) |
 ## Merge Sort
 |  |
 | ------- |
@@ -774,6 +777,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2868-continuous-subarrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
@@ -870,6 +874,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0729-my-calendar-i](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0731-my-calendar-ii) |
+| [2868-continuous-subarrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2868-continuous-subarrays) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -886,4 +891,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2201-valid-arrangement-of-pairs](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2201-valid-arrangement-of-pairs) |
+## Monotonic Queue
+|  |
+| ------- |
+| [2868-continuous-subarrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/2868-continuous-subarrays) |
 <!---LeetCode Topics End-->
