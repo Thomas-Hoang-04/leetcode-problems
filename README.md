@@ -232,6 +232,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0001-two-sum) |
 | [0040-combination-sum-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0040-combination-sum-ii) |
+| [0084-largest-rectangle-in-histogram](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0084-largest-rectangle-in-histogram) |
 | [0179-largest-number](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0179-largest-number) |
 | [0349-intersection-of-two-arrays](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -625,6 +626,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0084-largest-rectangle-in-histogram) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0145-binary-tree-postorder-traversal) |
 | [0726-number-of-atoms](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0726-number-of-atoms) |
 | [0735-asteroid-collision](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0735-asteroid-collision) |
@@ -889,6 +891,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Monotonic Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0084-largest-rectangle-in-histogram) |
 | [1002-maximum-width-ramp](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/1002-maximum-width-ramp) |
 ## Enumeration
 |  |
