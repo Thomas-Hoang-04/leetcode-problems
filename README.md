@@ -532,6 +532,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0202-happy-number) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0241-different-ways-to-add-parentheses) |
 | [0258-add-digits](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0258-add-digits) |
@@ -752,6 +753,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0070-climbing-stairs) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0264-ugly-number-ii) |
 | [0392-is-subsequence](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0392-is-subsequence) |
@@ -853,6 +855,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0070-climbing-stairs) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0241-different-ways-to-add-parentheses) |
 ## Rolling Hash
 |  |
