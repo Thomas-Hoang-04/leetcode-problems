@@ -573,6 +573,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0072-edit-distance](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0072-edit-distance) |
 | [0179-largest-number](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0179-largest-number) |
 | [0214-shortest-palindrome](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0241-different-ways-to-add-parentheses) |
@@ -754,6 +755,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0072-edit-distance) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0264-ugly-number-ii) |
 | [0392-is-subsequence](https://github.com/Thomas-Hoang-04/leetcode-problems/tree/master/0392-is-subsequence) |
